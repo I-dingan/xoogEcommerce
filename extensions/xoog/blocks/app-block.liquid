@@ -1,0 +1,17 @@
+<span style="color: {{ block.settings.color }}">
+App blocks testing by ashwin
+</span>
+<button>Click ME</button>
+
+{% render "app_snippet" %}
+{% schema %}
+  {
+    "name": "Hello World",
+    "target": "section",
+    "stylesheet": "app.css",
+    "javascript": "app.js",
+    "settings": [
+        { "label": "Color", "id": "color", "type": "color", "default": "#000000" }
+    ]
+  }
+{% endschema %}

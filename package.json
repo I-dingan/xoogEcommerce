@@ -1,0 +1,20 @@
+{
+  "name": "xoog-ecommerce",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev --tunnel-url=https://7f51-202-131-143-2.in.ngrok.io:8000",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.39.0",
+    "@shopify/cli": "3.39.0",
+    "mongoose": "^6.9.0"
+  },
+  "author": "Ashwin Satheesh"
+}
